@@ -22,6 +22,13 @@ $custom-control-indicator-bg: $text-muted;
     background-color: $white;
 }
 
+.back-logo{
+    margin-right: 8px;
+    &:hover{
+        text-decoration: none;
+    }
+}
+
 .navbar-mini {
     background-color: $white;
 }

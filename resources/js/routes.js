@@ -1,5 +1,9 @@
 export default [
-    { path: '/', redirect: '/stats' },
+    { path: '/home', redirect: to => {
+            // the function receives the target route as the argument
+            // return redirect path/location here.
+            return Canvas.customRoutes.home;
+        }  },
     {
         path: '/stats',
         name: 'stats',

@@ -1,5 +1,6 @@
 {
     "name": "lostika86/canvas-mod",
+    "version" : "5.2.5",
     "description": "A Laravel publishing platform",
     "keywords": ["canvas", "laravel", "publishing", "platform"],
     "license": "MIT",
@@ -48,6 +49,6 @@
     "config": {
         "sort-packages": true
     },
-    "minimum-stability": "dev",
+
     "prefer-stable": true
 }

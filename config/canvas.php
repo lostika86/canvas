@@ -79,4 +79,10 @@ return [
         'enabled' => env('CANVAS_MAIL_ENABLED', false),
     ],
 
+    'personalization' => [
+        'layout' => [
+            'title'	=> 'Blog'
+        ]
+    ]
+
 ];
